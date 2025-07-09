@@ -40,7 +40,11 @@ Use cases that i am willing to follow:-
      Let users give feedback on the quality or helpfulness of an answer.
 ---------------------------------------------------------------------------------------------
 User Roles:-
-⦁	Medical Specialist (Doctor)
-⦁	Health-Conscious Patient
-⦁	Public Health Analyst
-⦁	Medical Research Intern
+1. Doctor 
+2. Nurse 
+3. TB Program Manager 
+4. Diabetes Program Manager
+5. Public Health Official 
+6. Health Policy Maker 
+7. Researcher 
+8. Patient
