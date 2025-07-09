@@ -1,0 +1,46 @@
+Health Project Work:-
+---------------------
+1.	Load a public PDF document (e.g., a health report from WHO or any other report).
+2.	Process the document:
+	Load the PDF
+	Split it into chunks
+	Define overlap for better context retention
+	Vectorize and store it in a Vector Database (FAISS)
+3. Embed custom roles into the prompting process using a SYSTEM_PROMPT and USER_ROLES.
+4. User Role-based Question Answering:
+	Different users (like Doctor, Physician, Patient) may ask the same question.
+	The response should be customized based on the role of the user.
+5. Use Gemini 1.5 via LangChain (LLM as the backend for answering questions).
+6. Create modular code by importing roles and prompts (e.g., from .prompts import USER_ROLES).
+---------------------------------------------------------------------------------------------
+Use cases that i am willing to follow:-   
+1.	PDF Upload and Processing
+    Allow users to upload a PDF to use as the knowledge source.
+2. Document Splitting and Chunking
+    Split the document into text chunks with defined overlap for better context.
+3. Text Embedding and Vector Storage
+    Convert chunks to vector embeddings and store them in a FAISS vector database.
+4. Role-Based Query System
+    Let users select a predefined role (e.g., Doctor, Patient) before querying.
+5. Dynamic System Prompting
+    Customize the system prompt for Gemini based on the selected user role.
+6. Question Answering via RAG
+    Retrieve relevant chunks and generate role-specific answers using Gemini LLM.
+7. Multiple Users / Roles on Same Data
+    Support multiple users with different roles querying the same PDF.
+8. Role-Based Answer Comparison
+    Compare how different roles receive different answers to the same question.
+9. Document Refresh & Re-indexing
+    Replace or update PDFs and regenerate the vector database accordingly.
+10. Error Handling for Edge Scenarios
+     Handle issues like empty input, unsupported file types.
+11. Role Management and Customization
+     Add or modify user roles and corresponding prompt behavior dynamically.
+12. Feedback Mechanism (Optional)
+     Let users give feedback on the quality or helpfulness of an answer.
+---------------------------------------------------------------------------------------------
+User Roles:-
+⦁	Medical Specialist (Doctor)
+⦁	Health-Conscious Patient
+⦁	Public Health Analyst
+⦁	Medical Research Intern
