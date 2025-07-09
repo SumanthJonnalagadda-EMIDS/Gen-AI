@@ -13,7 +13,8 @@ from google.api_core.exceptions import ResourceExhausted
 load_dotenv()
 api_key = os.getenv("GOOGLE_API_KEY")
 
-loader = PyPDFLoader("framework.pdf")
+loader = PyPDFLoader("RAG_APPLICATION/framework.pdf")
+
 docs = loader.load()
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=250)
 chunks = splitter.split_documents(docs)
