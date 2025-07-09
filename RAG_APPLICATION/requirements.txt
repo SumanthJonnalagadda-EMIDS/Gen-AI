@@ -4,3 +4,4 @@ langchain
 langchain-google-genai
 google-api-core
 faiss-cpu
+langchain-community
