@@ -1,0 +1,6 @@
+streamlit
+python-dotenv
+langchain
+langchain-google-genai
+google-api-core
+faiss-cpu
