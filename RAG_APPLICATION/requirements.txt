@@ -6,3 +6,4 @@ google-api-core
 faiss-cpu
 langchain-community
 pypdf
+matplotlib
