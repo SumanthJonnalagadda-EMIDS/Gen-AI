@@ -1,9 +1,8 @@
 streamlit
-python-dotenv
-langchain
-langchain-google-genai
-google-api-core
+langchain>=0.1.0
+langchain-google-genai>=0.0.7
 faiss-cpu
-langchain-community
+google-api-core
+google-generativeai
+python-dotenv
 pypdf
-matplotlib
