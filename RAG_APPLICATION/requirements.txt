@@ -1,6 +1,7 @@
 streamlit
 langchain>=0.1.0
 langchain-google-genai>=0.0.7
+langchain-community>=0.0.11
 faiss-cpu
 google-api-core
 google-generativeai
